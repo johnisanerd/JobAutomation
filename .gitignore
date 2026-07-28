@@ -1,0 +1,32 @@
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local OS/editor files
+.DS_Store
+.claude/
+
+# Secrets and local auth
+.env
+credentials.json
+token.json
+sessions/
+
+# Runtime state, logs, and generated artifacts
+logs/
+outputs/
+state/
+files/
+
+# Resume build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
